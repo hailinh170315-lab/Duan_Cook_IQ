@@ -18,6 +18,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
         // Nếu user truy cập: http://localhost:8080/uploads/anh.jpg
         // Hệ thống sẽ tìm trong: C:/.../TenProject/uploads/anh.jpg
         registry.addResourceHandler("/uploads/**")
-                .addResourceLocations("file:" + projectPath + "/uploads/");
+                .addResourceLocations("file:/var/www/cookiq/uploads/");
     }
 }

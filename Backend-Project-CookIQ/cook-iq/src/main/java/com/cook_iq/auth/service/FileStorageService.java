@@ -14,7 +14,7 @@ import java.util.UUID;
 @Service
 public class FileStorageService {
 
-    private final Path storageLocation = Paths.get("uploads");
+    private final Path storageLocation = Paths.get("/var/www/cookiq/uploads");
 
     public FileStorageService() {
         try {
