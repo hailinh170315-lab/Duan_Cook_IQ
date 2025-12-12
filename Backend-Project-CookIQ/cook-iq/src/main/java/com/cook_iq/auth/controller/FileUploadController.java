@@ -21,8 +21,7 @@ public class FileUploadController {
     public ResponseEntity<Map<String, String>> uploadFile(@RequestParam("file") MultipartFile file) {
         String fileName = fileStorageService.storeFile(file);
 
-        // Trả về full URL (ví dụ: http://localhost:8080/uploads/abc.jpg)
-        String fileUrl = "http://localhost:8080" + fileName;
+        String fileUrl = fileName;
 
         return ResponseEntity.ok(Map.of("url", fileUrl));
     }
