@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.vti</groupId>
-    <artifactId>food-iq</artifactId>
+    <artifactId>cook-iq</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>food-iq</name>
     <description>food-iq</description>

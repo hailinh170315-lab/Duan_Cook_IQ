@@ -13,6 +13,7 @@ public class LoginResponse {
     private String email;
     private String fullName;
     private Roles roles;
+    private String avatarUrl;
     private LocalDateTime createdAt;
     private String token;
 }

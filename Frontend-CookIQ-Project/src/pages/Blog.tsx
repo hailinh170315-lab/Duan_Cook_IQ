@@ -283,7 +283,7 @@ export const WriteBlog: React.FC = () => {
           <label className="block text-sm font-medium text-gray-700 mb-1">Danh mục</label>
           <input
             type="text"
-            value={category}
+            value={BlogCategoryLabel[category]}
             readOnly
             disabled
             className="block w-full border-gray-300 rounded-md shadow-sm border p-3 bg-gray-100 text-gray-600 cursor-not-allowed"
